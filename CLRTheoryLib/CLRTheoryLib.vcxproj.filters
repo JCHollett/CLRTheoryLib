@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Mathematics">
+      <UniqueIdentifier>{36d05663-0baa-44f8-b72c-5ba317320c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics">
+      <UniqueIdentifier>{3b78b1d7-17dd-4f19-a7d4-22d94809d7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Circular">
+      <UniqueIdentifier>{0a0d5bef-703d-463f-be0a-470f289e7d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics\Circular\Functions">
+      <UniqueIdentifier>{1fcb2580-e8f6-4f5d-92d9-04da770e10e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Circular">
+      <UniqueIdentifier>{2c2eaef4-536b-42a0-a739-e0a7d74241ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics\Circular\Functions">
+      <UniqueIdentifier>{0427eaa4-07b5-4046-9cb2-954e09b940d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LinearAlgebra">
+      <UniqueIdentifier>{22f7d4a7-db91-48e6-af07-c4b956e3803b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearAlgebra">
+      <UniqueIdentifier>{06db02d0-b2a7-49ce-bb83-a14fa0cf111a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Degree.h">
+      <Filter>Header Files\Mathematics\Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="Radian.h">
+      <Filter>Header Files\Mathematics\Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header Files\Mathematics\Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosine.h">
+      <Filter>Header Files\Mathematics\Circular\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sine.h">
+      <Filter>Header Files\Mathematics\Circular\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\LinearAlgebra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Degree.cpp">
+      <Filter>Source Files\Mathematics\Circular</Filter>
+    </ClCompile>
+    <ClCompile Include="Radian.cpp">
+      <Filter>Source Files\Mathematics\Circular</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosine.cpp">
+      <Filter>Source Files\Mathematics\Circular\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Sine.cpp">
+      <Filter>Source Files\Mathematics\Circular\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
